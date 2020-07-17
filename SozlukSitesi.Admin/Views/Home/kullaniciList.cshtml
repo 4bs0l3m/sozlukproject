@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "kullaniciList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>kullaniciList</h2>
+<div ng-app="KulGet">
+
+    <div ng-controller="kullistController">
+        <input type="text" ng-model="filtrele" placeholder="Arama" />
+        <ul>
+            <li ng-repeat="kullanici in Kullanicilar | filter:filtrele">
+                <div class="kullanici">
+                    <p>  <a href="javascript:" id="kullaniciDetayGet" class="btn btn-info" ng-click="sTab($index + 1)">{{kullanici.Ad}} {{kullanici.Soyad}} </a></p>
+                </div>
+               
+                <div class="tab" ng-show="aTab($index + 1)">
+                    <p><b>Cinsiyet: </b> {{kullanici.Cinsiyet}}</p>
+                    <p><b>Rütbe: </b> {{kullanici.Rol.RolAdi}}</p> 
+                    <p><b>E-Mail: </b>{{kullanici.eMail}}</p>
+                    <p><b>E-Mail Onay: </b> {{kullanici.eMail_Onay}}</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    var app = angular.module("KulGet", []);
+    app.controller("kullistController", function ($scope, $http) {
+        $scope.tab = 0;
+        $scope.tabAktif = 0;
+        $scope.sTab = function (res) {
+            /*
+            Eğer tab res'e eşit ise acık olan acılır menu kapanır
+            Eğer tab 0 veya res'e eşit değil ise res index'inde ki açılır menu açılır
+            */
+            if ($scope.tab == res) {
+                return $scope.tab = 0;
+            }
+            else {
+                return $scope.tab = res;
+            }
+                        
+        }
+        $scope.aTab = function (deger) {
+                return $scope.tab === deger;       
+        }
+        $http.get("kullanicilarJson").then(function (response) {
+            $scope.Kullanicilar = response.data;
+        }
+        )
+
+    });
+</script>

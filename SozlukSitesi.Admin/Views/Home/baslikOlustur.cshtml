@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "baslikOlustur";
+}
+
+<h2>baslikOlustur</h2>
+
+@using (Html.BeginForm("baslikOlustur", "Home", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <input type="text" name="Ad" placeholder="Başlığı giriniz..." /><br />
+    <input type="submit" value="Kayıt" />
+}

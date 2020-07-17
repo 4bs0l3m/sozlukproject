@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "KayitOl";
+}
+
+<h2>KayitOl</h2>
+
+@using (Html.BeginForm("KayitOl", "Account", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <input type="text" name="Ad" placeholder="Adınızı giriniz..." /><br />
+    <input type="text" name="Soyad" placeholder="Soyadınızı giriniz..." /><br />
+    <input type="text" name="KullaniciAdi" placeholder="Kullanici Adınızı giriniz..." /><br />
+    <input type="password" name="sifre" placeholder="Şifrenizi giriniz..." /><br />
+    <input type="email" name="eMail" placeholder="E-Mailinizi giriniz..." /><br />
+    <label><input type="checkbox" name="Cinsiyet" value="Erkek" />Erkek</label><br />
+    <label><input type="checkbox" name="Cinsiyet" value="Kadın" />Kadın</label><br />
+    <input type="submit" value="Kayıt" />
+}
+
+<div>
+</div>

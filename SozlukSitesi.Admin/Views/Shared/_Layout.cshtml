@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>Basic 82</title>
+    <meta charset="iso-8859-1">
+    <link rel="stylesheet" href="/styles/layout.css" type="text/css">
+    <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+    <script src="~/angular-1.6.4/angular.js"></script>
+    <script src="~/angular-1.6.4/angular.min.js"></script>
+
+</head>
+<body>
+    <div class="wrapper row1">
+        <header id="header" class="clear">
+            <div id="hgroup">
+                <h1><a href="#">Basic 82</a></h1>
+                <h2>Free HTML5 Website Template</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/home/index">Anasayfa</a></li>
+                    <li><a href="/Home/baslikOlustur">Baslık Oluştur</a></li>
+                    <li><a href="/Home/kullaniciList">Kullanıcılar</a></li>
+                    <li class="last"><a href="/home/basliklar">Basliklar</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- content -->
+    <div class="wrapper row2">
+        <div id="container" class="clear">
+            <section id="slider"><a href="#"><img src="/images/demo/960x360.gif" alt=""></a></section>
+            <!-- content body -->
+            <aside id="left_column">
+                <h2 class="title">Categories</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#">Free Website Templates</a></li>
+                        <li><a href="#">Free CSS Templates</a></li>
+                        <li><a href="#">Free XHTML Templates</a></li>
+                        <li><a href="#">Free Website Layouts</a></li>
+                        <li><a href="#">Free HTML5 Templates</a></li>
+                        <li class="last"><a href="#">Free PNG Templates</a></li>
+                    </ul>
+                </nav>
+                <!-- /nav -->
+                <h2 class="title">Get In Contact</h2>
+                <section class="last">
+                    <address>
+                        Full Name<br>
+                        Address Line 1<br>
+                        Address Line 2<br>
+                        Town/City<br>
+                        Postcode/Zip<br>
+                        <br>
+                        Tel: xxxx xxxx xxxxxx<br>
+                        Email: <a href="#">contact@domain.com</a>
+                    </address>
+                </section>
+                <!-- /section -->
+            </aside>
+            <!-- main content -->
+            @RenderBody()
+            
+            <!-- / content body -->
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="wrapper row3">
+        <footer id="footer" class="clear">
+            <p class="fl_left">Copyright &copy; 2012 - All Rights Reserved - <a href="#">Domain Name</a></p>
+            <p class="fl_right">Template by <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+        </footer>
+    </div>
+</body>
+</html>

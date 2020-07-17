@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+@using (Html.BeginForm("Login", "Account", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    
+
+    <div style="text-align:center;">
+        @Session["ZiyaretciIP"]
+        
+<h2>Giriş</h2>
+        <input type="text" name="KullaniciAdi" placeholder="Kullanici Adınızı giriniz..." /><br />
+        <input type="password" name="sifre" placeholder="Şifrenizi giriniz..." /><br />
+        <input type="submit" value="Kayıt" />
+        <a href="@Url.Action("KayitOl","Account")">Kayıt Ol!</a>
+    </div>
+    
+}

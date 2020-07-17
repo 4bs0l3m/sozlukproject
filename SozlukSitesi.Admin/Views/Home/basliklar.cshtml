@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "basliklar";
+}
+
+<h2>basliklar</h2>
+
+<div ng-app="baslikGet">
+    <div ng-controller="basliklistController">
+        <ul>
+            <li ng-repeat="baslik in Basliklar">
+                <a href="/home/entry/{{baslik.ID}}">{{baslik.Ad}}</a>
+            </li>
+        </ul>
+    </div>
+</div>
+@*@foreach (var item in ViewBag.Basliklar)
+{
+    @item.Ad;
+}*@
+<script>
+    var app = angular.module("baslikGet", []);
+    app.controller("basliklistController", function ($scope, $http) {
+        $http.get("/home/basliklarJson").then(function (response) {
+            $scope.Basliklar = response.data;
+        }
+        )
+    });
+</script>

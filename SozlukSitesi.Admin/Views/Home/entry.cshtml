@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "entry";
+}
+
+<h2>entry</h2>
+
+<b>@ViewBag.baslikAdi</b>
+<div ng-app="entryGet">
+
+    <div ng-controller="entrylistController">
+
+        <ul>
+            <li ng-repeat="entry in Entryler">
+                <p>{{entry.Metin}}</p>
+                <span>{{entry.girisTarihi.Year}}-{{entry.eSahibi.KullaniciAdi}} </span>
+            </li>
+        </ul>
+    </div>
+</div>
+@using (Html.BeginForm("entry/" +Url.RequestContext.RouteData.Values["id"], "Home", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <input type="text" name="Metin" placeholder="Metni giriniz..." /><br />
+    <input type="submit" value="Kayıt" />
+}
+<script>
+    var app = angular.module("entryGet", []);
+    app.controller("entrylistController", function ($scope, $http) {
+        $http.get("/home/entrylerJson/@Url.RequestContext.RouteData.Values["id"]").then(function (response) {
+            $scope.Entryler = response.data;
+        }
+        )
+    });
+</script>
