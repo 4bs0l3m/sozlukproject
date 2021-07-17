@@ -22,3 +22,17 @@ C:\Users\eneso\Desktop\Masaüstü2\Sözlük Sitesi\SozlukProje\SozlukSitesi.Data
 C:\Users\eneso\Desktop\Masaüstü2\Sözlük Sitesi\SozlukProje\SozlukSitesi.Data\obj\Debug\SozlukSitesi.Data.csproj.GenerateResource.Cache
 C:\Users\eneso\Desktop\Masaüstü2\Sözlük Sitesi\SozlukProje\SozlukSitesi.Data\obj\Debug\SozlukSitesi.Data.dll
 C:\Users\eneso\Desktop\Masaüstü2\Sözlük Sitesi\SozlukProje\SozlukSitesi.Data\obj\Debug\SozlukSitesi.Data.pdb
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Data\bin\Debug\SozlukSitesi.Data.dll.config
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Data\bin\Debug\SozlukSitesi.Data.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Data\bin\Debug\SozlukSitesi.Data.pdb
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Data\bin\Debug\EntityFramework.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Data\bin\Debug\EntityFramework.xml
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Data\obj\Debug\SozlukSitesi.Data.csprojAssemblyReference.cache
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Data\obj\Debug\SozlukSitesi.Data.Migrations.Olustur.resources
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Data\obj\Debug\SozlukSitesi.Data.csproj.GenerateResource.cache
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Data\obj\Debug\SozlukSitesi.Data.csproj.CoreCompileInputs.cache
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Data\obj\Debug\SozlukSitesi.Data.csproj.CopyComplete
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Data\obj\Debug\SozlukSitesi.Data.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Data\obj\Debug\SozlukSitesi.Data.pdb

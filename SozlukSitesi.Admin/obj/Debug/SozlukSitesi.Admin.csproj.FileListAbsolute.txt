@@ -58,3 +58,38 @@ C:\Users\eneso\Desktop\Masaüstü2\Sözlük Sitesi\SozlukProje\SozlukSitesi.Admi
 C:\Users\eneso\Desktop\Masaüstü2\Sözlük Sitesi\SozlukProje\SozlukSitesi.Admin\obj\Debug\SozlukSitesi.Admin.csprojResolveAssemblyReference.cache
 C:\Users\eneso\Desktop\Masaüstü2\Sözlük Sitesi\SozlukProje\SozlukSitesi.Admin\obj\Debug\SozlukSitesi.Admin.dll
 C:\Users\eneso\Desktop\Masaüstü2\Sözlük Sitesi\SozlukProje\SozlukSitesi.Admin\obj\Debug\SozlukSitesi.Admin.pdb
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\SozlukSitesi.Admin.dll.config
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\SozlukSitesi.Admin.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\SozlukSitesi.Admin.pdb
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\Autofac.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\Autofac.Integration.Mvc.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\EntityFramework.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\EntityFramework.SqlServer.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\SozlukSitesi.Core.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\SozlukSitesi.Data.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\System.Web.Helpers.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\System.Web.Mvc.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\System.Web.Razor.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\System.Web.Webpages.Deployment.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\System.Web.Webpages.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\System.Web.Webpages.Razor.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\SozlukSitesi.Core.pdb
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\SozlukSitesi.Core.dll.config
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\SozlukSitesi.Data.pdb
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\SozlukSitesi.Data.dll.config
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\Autofac.xml
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\Autofac.Integration.Mvc.xml
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\EntityFramework.xml
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\EntityFramework.SqlServer.xml
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\System.Web.Razor.xml
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\System.Web.Webpages.xml
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\System.Web.Webpages.Deployment.xml
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\System.Web.Webpages.Razor.xml
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\System.Web.Helpers.xml
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\bin\System.Web.Mvc.xml
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\obj\Debug\SozlukSitesi.Admin.csprojAssemblyReference.cache
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\obj\Debug\SozlukSitesi.Admin.csproj.CoreCompileInputs.cache
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\obj\Debug\SozlukSitesi.Admin.csproj.CopyComplete
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\obj\Debug\SozlukSitesi.Admin.dll
+C:\Users\eneso\Source\Repos\sozlukproject\SozlukSitesi.Admin\obj\Debug\SozlukSitesi.Admin.pdb
