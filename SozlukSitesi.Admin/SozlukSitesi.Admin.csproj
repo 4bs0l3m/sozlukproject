@@ -19,6 +19,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -2663,6 +2665,33 @@
     <Content Include="angular-1.6.4\i18n\angular-locale_zu-za.js" />
     <Content Include="angular-1.6.4\i18n\angular-locale_zu.js" />
     <Content Include="angular-1.6.4\version.txt" />
+    <Content Include="bin\Autofac.dll" />
+    <Content Include="bin\Autofac.Integration.Mvc.dll" />
+    <Content Include="bin\Autofac.Integration.Mvc.xml" />
+    <Content Include="bin\Autofac.xml" />
+    <Content Include="bin\EntityFramework.dll" />
+    <Content Include="bin\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\EntityFramework.xml" />
+    <Content Include="bin\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="bin\SozlukSitesi.Admin.dll" />
+    <Content Include="bin\SozlukSitesi.Admin.pdb" />
+    <Content Include="bin\SozlukSitesi.Core.dll" />
+    <Content Include="bin\SozlukSitesi.Core.pdb" />
+    <Content Include="bin\SozlukSitesi.Data.dll" />
+    <Content Include="bin\SozlukSitesi.Data.pdb" />
+    <Content Include="bin\System.Web.Helpers.dll" />
+    <Content Include="bin\System.Web.Helpers.xml" />
+    <Content Include="bin\System.Web.Mvc.dll" />
+    <Content Include="bin\System.Web.Mvc.xml" />
+    <Content Include="bin\System.Web.Razor.dll" />
+    <Content Include="bin\System.Web.Razor.xml" />
+    <Content Include="bin\System.Web.Webpages.Deployment.dll" />
+    <Content Include="bin\System.Web.Webpages.Deployment.xml" />
+    <Content Include="bin\System.Web.Webpages.dll" />
+    <Content Include="bin\System.Web.Webpages.Razor.dll" />
+    <Content Include="bin\System.Web.Webpages.Razor.xml" />
+    <Content Include="bin\System.Web.Webpages.xml" />
     <Content Include="fonts\fontawesome-webfontba72.svg" />
     <Content Include="fonts\footable.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -2674,6 +2703,9 @@
     <Content Include="images\demo\index.html" />
     <Content Include="images\index.html" />
     <Content Include="images\orange_file.gif" />
+    <Content Include="obj\Debug\SozlukSitesi.Admin.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\SozlukSitesi.Admin.dll" />
+    <Content Include="obj\Debug\SozlukSitesi.Admin.pdb" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />
@@ -3467,6 +3499,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.5.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -3790,6 +3826,14 @@
     <Content Include="Views\Home\baslikOlustur.cshtml" />
     <Content Include="Views\Home\entry.cshtml" />
     <Content Include="Views\Home\basliklar.cshtml" />
+    <Content Include="bin\SozlukSitesi.Admin.dll.config" />
+    <Content Include="bin\SozlukSitesi.Core.dll.config" />
+    <Content Include="bin\SozlukSitesi.Data.dll.config" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\SozlukSitesi.Admin.csproj.CopyComplete" />
+    <Content Include="obj\Debug\SozlukSitesi.Admin.csproj.CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\SozlukSitesi.Admin.csprojAssemblyReference.cache" />
+    <Content Include="obj\Debug\SozlukSitesi.Admin.csprojResolveAssemblyReference.cache" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3802,6 +3846,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="img\" />
     <Folder Include="Models\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
